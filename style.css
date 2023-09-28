@@ -1,0 +1,494 @@
+/* Fontes Importadas */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Roboto :wght@300 & display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*---------------------------------------- Cabeçalho ----------------------------------------*/
+
+.cabecalho {
+	background-color: #440404;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: #b6823d solid 4px;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.logo-cabecalho {
+	margin: 25px 0px 30px 40px;
+	display: inline-block;
+	background-image: url(imagens/Logo\ Horizontal.png);
+	width: 250px;
+	height: 125px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.img-logo1 {
+	width: 100%;
+	height: 125px;
+	display: flex;
+}
+
+/* Barra de navegação*/
+
+#navegation {
+	display: inline-block;
+}
+
+
+#navegation ul {
+	list-style: none;
+	margin: 0px 40px 0px 20px;
+	padding-top: 20px;
+}
+
+#navegation ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+#navegation li a {
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Rubik', sem serifa;
+	background-color: #b6823d;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#navegation li a:hover {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Rubik', sem serifa;
+	background-color: #865008;
+	transition: 0.5s;
+}
+
+/*------------------------- Anúncios -------------------------- */
+#ads {
+	width: 100%;
+	display: inline-block;
+	background-image: url(imagens/Plano\ de\ Fundo\ ADS.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bloco-ads {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	margin: 20px;
+}
+
+.img-ofertas {
+	margin: 0px 10px 0px 0px;
+	max-width: 500px;
+	width: 100%
+}
+
+.ofertas {
+	margin: 20px 0px 20px 0px;
+}
+
+/* Cupons e promoções */
+
+.promocao {
+	display: flex;
+	margin: 0px 0px 20px 0px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.promocard {}
+
+.promocard img {
+	max-width: 500px;
+	width: 100%;
+	margin: 0px 10px 0px 0px;
+}
+
+/*---------------------------------------------------- Sobre Nós ------------------------------------------- */
+
+#sobrenos {
+	width: 100%;
+	background-color: #171515;
+	padding: 40px 60px 40px 60px;
+}
+
+.artigo-sobrenos {
+	display: flex;
+}
+
+.conteudo-sobrenos {
+	display: inline-block;
+	padding: 0px 10px 0px 0px;
+}
+
+.logo-sobrenos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 30px 0px 0px 0px;
+}
+
+.logo-sobrenos img {
+	max-width: 300px;
+	width: 100%;
+}
+
+.titulo-sobrenos1 {
+	margin: 0px 0px 20px 0px;
+	background-color: #962020;
+	color: #F3C19A;
+	border-left: #BE1931 solid 7px;
+	border-radius: 0px 0px 0px 10px;
+	padding: 10px 0px 10px 10px;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto-sobrenos {
+	color: #e0ccbc;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.titulo-sobrenos2 {
+	margin: 0px 0px 20px 0px;
+	background-color: #962020;
+	color: #F3C19A;
+	border-left: #BE1931 solid 7px;
+	border-radius: 0px 0px 0px 10px;
+	padding: 10px 0px 10px 10px;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*------------------------------ Tabela do Sobre Nós ------------------------------*/
+.tabela {
+	display: flex;
+	justify-content: center;
+}
+
+.tabela-sobrenos {
+	border-collapse: separate;
+	border-left: solid 5px #BE1931;
+	border-right: solid 5px #BE1931;
+	width: 100%;
+	max-width: 1200px;
+}
+
+th.tabela-titulo {
+	text-align: left;
+	color: #f8d784;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 25px;
+	border-left: #962020 solid 7px;
+	padding: 0px 0px 0px 10px;
+}
+
+td.nomeceo {
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-family: 'Rubik', sem serifa;
+	font-weight: 900;
+	font-size: 20px;
+	background-color: #962020;
+	color: #f8d784;
+	border-radius: 10px 10px 0px 0px;
+	border: #440404 solid 6px;
+}
+
+td.fotoceo {
+	width: 500px;
+	height: 60px;
+	text-align: center;
+	border-left: solid #a50707 6px;
+	border-right: solid #6b2121 6px;
+	padding: 0px 10px;
+}
+
+.fotoceo {
+	width: 100%;
+	height: auto;
+	max-width: 250px;
+}
+
+td.sobreceo {
+	color: #b6823d;
+	text-align: justify;
+	font-family: 'Rubik', sem serifa;
+	font-size: small;
+	font-weight: 500;
+	background-color: #4b1111;
+	padding: 10px 18px 10px 18px;
+	border-radius: 0px 0px 10px 10px;
+	border: #440404 solid 6px;
+}
+
+b.negrito {
+	color: #BE1931;
+}
+
+/*------------------------------ Fale Conosco ------------------------------*/
+
+#faleconosco {
+	display: inline-block;
+	width: 100%;
+	background-color: #962020;
+	padding: 40px 80px 40px 60px;
+}
+
+.conteudo-faleconosco {
+	margin: 25px 0px 0px 0px;
+}
+
+.titulo-faleconosco {
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 0px 10px;
+	border-left: #440404 solid 7px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #D49C52;
+	font-weight: bold;
+}
+
+.texto-faleconosco {
+	text-align: justify;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: small;
+	font-weight: 400;
+}
+
+/* Ícones para contato */
+
+.formas-contato {
+	margin: 80px 0px 30px 0px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.email,
+.instagram,
+.twitter,
+.telefone,
+.sac {
+	margin: 0px 0px 50px 0px;
+}
+
+.icones {
+	padding: 0px 10px 0px 0px;
+	width: 45px;
+	height: 100%;
+}
+
+.formas-contato a {
+	text-decoration: none;
+	color: #D49C52;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: small;
+	font-weight: bolder;
+}
+
+.email a,
+.instagram a,
+.twitter a,
+.telefone a,
+.sac a {
+	display: flex;
+	align-items: center;
+	padding: 0px 10px 0px 10px;
+}
+
+/*------------------------------ Rodapé ------------------------------*/
+
+.rodape {
+	background-color: #3B1616;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.conteiner-mapadosite {
+	width: 100%;
+	margin: 30px 0px 0px 0px;
+	padding: 0px 10%;
+}
+
+.conteiner-mapadosite ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.conteiner-mapadosite ul li {
+	display: inline-block;
+}
+
+.conteiner-mapadosite p {
+	color: #F3C19A;
+	font-weight: bold;
+}
+
+.conteiner-mapadosite li a {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	color: #F3C19A;
+}
+
+.conteiner-mapadosite li a:hover {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+	color: #F3C19A;
+	text-decoration: underline;
+}
+
+
+.logo-rodape {
+	margin: 80px 0px 15px 0px;
+	display: inline-block;
+	background-image: url(imagens/Logo\ Min.png);
+	width: 180px;
+	height: 150px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slogan {
+	font-family: 'Rubik', sans-serif;
+	color: #ce8181;
+}
+
+.box-copyright {
+	margin: 40px 0px 15px 0px;
+	text-align: center;
+}
+
+.copyright {
+	font-family: 'Rubik', sans-serif;
+	color: white;
+}
+
+.copyright a {
+	color: #d39898;
+	display: inline-block;
+}
+
+/*------------------------------ Responsividade ------------------------------*/
+
+/* media link cabecalho */
+
+@media((min-width:799px) and (max-width: 985px)) {
+	#navegation li a {
+		font-size: 15px;
+	}
+
+	#navegation ul li {
+		padding: 10px 0px 20px 10px;
+	}
+}
+
+@media((min-width: 494px) and (max-width:695px)) {
+	#navegation li a {
+		font-size: 15px;
+	}
+
+	#navegation ul li {
+		padding: 10px 0px 20px 10px;
+	}
+}
+
+@media(max-width: 425px) {
+	#navegation {
+		width: 100%;
+	}
+
+	#navegation ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+/* Media tabela */
+
+@media((min-width: 451px) and (max-width: 600px)) {
+	td.sobreceo {
+		padding: 5px;
+	}
+}
+
+@media (max-width: 450px) {
+	.tabela {
+		display: block;
+		overflow-x: auto;
+		padding: 10px;
+	}
+
+	.tabela-sobrenos {
+		border-collapse: separate;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	th.tabela-titulo {
+		text-align: center;
+		font-size: 18px;
+		padding: 10px;
+		border-left: none;
+	}
+
+	td.nomeceo {
+		font-size: 16px;
+		padding: 8px;
+		text-align: center;
+		border-radius: 0;
+	}
+
+	td.fotoceo {
+		width: 100%;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.fotoceo {
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}
+
+	td.sobreceo {
+		text-align: justify;
+		font-size: 14px;
+		padding: 10px;
+		border-radius: 0;
+	}
+}
+
+
+/* media rodape */
+
+@media(max-width: 425px) {
+	.conteiner-mapadosite ul {
+		flex-direction: column;
+		text-align: center;
+	}
+}
